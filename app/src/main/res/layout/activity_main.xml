@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+     >
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:text="jump 2 login"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/mine"
+        android:layout_width="wrap_content"
+        android:text="jump 2 mine"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/frag"
+        android:layout_width="wrap_content"
+        android:text="获取fragment"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
